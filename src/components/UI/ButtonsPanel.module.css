@@ -1,0 +1,7 @@
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 7em;
+    margin-bottom: 1em;
+}

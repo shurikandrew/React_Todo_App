@@ -1,0 +1,62 @@
+.trashRegular{
+    color: #112d49;
+    margin-right:0.4em;
+    display: block;
+
+}
+
+.trashSolid {
+    color: #112d49;
+    margin-right: 0.4em;
+    display: none;
+}
+
+.wrapper:hover .trashRegular{
+    display: none;
+    color: #a43e3e;
+}
+
+.wrapper:hover .trashSolid{
+    display: block;
+    color: #a43e3e;
+}
+
+.checkRegular{
+    color: #112d49;
+    display:block;
+}
+
+.checkSolid {
+    color: #112d49;
+    display:none;
+}
+
+.wrapper:hover .checkRegular{
+    display:none;
+    color: green;
+}
+
+.wrapper:hover .checkSolid{
+    display: block;
+    color: green;
+}
+
+.crossRegular{
+    color: #112d49;
+    display:block;
+}
+
+.crossSolid {
+    color: #112d49;
+    display:none;
+}
+
+.wrapper:hover .crossRegular{
+    display:none;
+    color: #a43e3e;
+}
+
+.wrapper:hover .crossSolid{
+    display: block;
+    color: #a43e3e;
+}

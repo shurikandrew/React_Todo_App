@@ -1,0 +1,44 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3e2d5;
+    border: 2px solid #112d49;
+    width:90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    word-break: break-word;
+    white-space: pre-wrap;
+    cursor: pointer;
+    min-height:1.2em;
+}
+
+.done{
+    background-color: rgba(111, 241, 111, 0.64);
+    color: green;
+}
+
+.icon{
+    color: indianred;
+    padding: 0 0.8em 0 0.5em;
+    align-self: center;
+}
+
+.iconDone{
+    padding: 0 0.55em 0 0.25em;
+    align-self: center;
+}
+
+
+.buttons{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.mainBody{
+    display: flex;
+    width: 15em;
+    min-height: 1em;
+}
+

@@ -1,0 +1,16 @@
+.button{
+    height: 2em;
+    width: 2em;
+    background-color:  #f3e2d5;
+    border: 2px solid #112d49;
+    color: #112d49;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgb(245, 213, 200);
+    transition: background-color 0.15s ease-in;
+}
